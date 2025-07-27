@@ -1,69 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Cable UTP AMP Categoría 6</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Sitio web de ds3comunicaciones, líder en soluciones de redes y comunicaciones. Ofrecemos productos para WiFi y extensión de señal." />
+  <meta name="keywords"
+    content="En Peru, ANTENA HYPERLINK, internet inalambrico, ANTENA PARA INTERNET, Antena Omnidireccional, Antena de panel, Cisco, Access Point, UTP, redes, PoE+" />
+  <meta name="author" content="ds3comunicaciones" />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="./css/style.css" />
+  
+  <!-- Script de navbar (si aplica) -->
+  <script src="./js/nav.js"></script>
+
+  <title>Switch Cisco Catalyst C9200L-24P-4G-E</title>
 </head>
-<body>
-  <header class="header">
-    <h1>Cable UTP AMP Categoría 6 Chaqueta CMR 23AWG 6-1427200-4</h1>
-  </header>
 
-  <main class="container">
-    <section class="product-info">
-      <div class="images">
-        <img src="src/6-1427200-4-1.jpg" alt="Cable UTP" class="main-image" />
-        <img src="src/Caja.jpg" alt="Caja AMP" class="box-image" />
-        <p class="caption">Foto Referencial</p>
-      </div>
+<body class="bg-gray-50 text-gray-800">
 
-      <div class="details">
-        <p class="price">Precio: <span class="price-value">U$ 187.00</span> por rollo</p>
-        <a href="https://www.ds3comunicaciones.com/pedido.html">
-          <img src="src/boton_comprar2.gif" alt="Comprar" class="buy-button" />
-        </a>
-      </div>
-    </section>
+  <!-- HEAD opcional -->
+  <div data-include="components/head.html"></div>
 
-    <section class="description">
-      <h2>Descripción:</h2>
-      <p>
-        Los Cables AMP NetConnect categoría 6 exceden los requerimientos TIA/EIA-568-B.2-1 e ISO / IEC 11801 Clase E. Además cumplen con todos los requisitos de rendimiento para aplicaciones actuales y propuestas, tales como Gigabit Ethernet (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM 155 Mbps, 100 Mbps TPPMD, Vídeo ISDN, análisis digital y digital y analógica y digital de voz (VoIP).
-      </p>
-      <p>
-        AMP NetConnect categoría 6 cables UTP están disponibles en (CMR) colores estándar, incluyendo blanco, gris y azul. El embalaje es en un reel-in-box, con el estándar 1000ft libres de empalme longitudinales.
-      </p>
-      <p>
-        Rendimiento del cable debe ser verificada independientemente y caracterizado a 600 MHz. Cable se suministra en un carrete-in-box. Independiente verificación del cumplimiento de inflamabilidad será NEC artículo 800 y NFPA 70, CMR (ANSI / UL 1666, IEC 332-1). Cable horizontal debe ser AMP NETCONNECT número X-1427200-X.
-      </p>
-      <a href="#">Download</a>
-    </section>
+  <!-- Contenedor general de producto con sidebars -->
+  <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col lg:flex-row gap-6">
 
-    <section class="technical">
-    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf"><h2>Datos Técnicos</h2></a>
-      <h3>Especificaciones Técnicas</h3>
-      <table>
-        <tr>
-          <th>Voltage</th>
-          <td>300VAC or VDC</td>
-        </tr>
-        <tr>
-          <th>Velocidad Nominal de Propagación</th>
-          <td>70%</td>
-        </tr>
-        <tr>
-          <th>Temperatura de Operación</th>
-          <td>-20°C a 60°C</td>
-        </tr>
-        <tr>
-          <th>Temperatura de Almacenamiento</th>
-          <td>-20°C a 80°C</td>
-        </tr>
-      </table>
-    </section>
-  </main>
+    <!-- Sidebar Izquierda -->
+    <aside class="w-full lg:w-1/5" data-include="components/sidebar-marcas.html"></aside>
+
+    <!-- Contenido principal del producto -->
+    <main class="w-full lg:w-3/5 flex-1 space-y-8">
+
+      <!-- Producto -->
+      <section class="bg-white rounded shadow p-6">
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div class="lg:w-1/2 space-y-4">
+            <img src="src/6-1427200-4-1.jpg" class="rounded w-full" />
+            <img src="src/Caja.jpg" class="rounded w-full" />
+            <p class="text-xs text-center text-gray-500">Foto Referencial</p>
+          </div>
+          <div class="lg:w-1/2 space-y-3">
+            <h1 class="text-xl font-bold text-blue-700">Cable UTP AMP Categoría 6 CMR 23AWG</h1>
+            <p class="text-gray-700">Código: <strong>6-1427200-4</strong></p>
+            <p class="text-green-600 text-2xl font-bold">U$ 187.00</p>
+            <a href="https://www.ds3comunicaciones.com/pedido.html" target="_blank"
+              class="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+              <i class="fas fa-shopping-cart"></i> Comprar ahora
+            </a>
+          </div>
+        </div>
+
+        <!-- Descripción -->
+        <div class="mt-6 space-y-2 text-sm">
+          <h2 class="text-lg font-semibold">Descripción</h2>
+          <p>Cable categoría 6 excede requerimientos TIA/EIA-568-B.2-1 e ISO / IEC 11801 Clase E.</p>
+          <p>Disponible en colores estándar. Ideal para redes de alto rendimiento.</p>
+          <p>Caracterizado a 600 MHz. Cumple con normativas de inflamabilidad.</p>
+          <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf" target="_blank"
+            class="text-blue-600 hover:underline">Ver ficha técnica PDF</a>
+        </div>
+
+        <!-- Datos técnicos -->
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+          <div><strong>Voltage:</strong> 300VAC or VDC</div>
+          <div><strong>Velocidad:</strong> 70%</div>
+          <div><strong>Temp. Operación:</strong> -20°C a 60°C</div>
+          <div><strong>Temp. Almacenamiento:</strong> -20°C a 80°C</div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sidebar Derecha -->
+    <aside class="hidden lg:block w-full lg:w-1/5" data-include="components/sidebar-precios.html"></aside>
+
+  </div>
+
+  <!-- Productos similares (fuera del layout con sidebars) -->
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <div data-include="components/tambien-disponibles.html"></div>
+  </div>
+
+  <!-- Footer -->
+  <div data-include="components/footer.html"></div>
+
+  <!-- Script para incluir componentes HTML -->
+  <script>
+    document.querySelectorAll('[data-include]').forEach(async (el) => {
+      const file = el.getAttribute('data-include');
+      const resp = await fetch(file);
+      if (resp.ok) {
+        const html = await resp.text();
+        el.outerHTML = html;
+      }
+    });
+  </script>
+
 </body>
+
 </html>
